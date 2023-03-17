@@ -1,0 +1,38 @@
+.cardmain{
+    width: 250px;
+    height: 500px;
+    margin: 20px 0;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px gray;
+    padding-top: 10px;
+}
+
+.cardimgdiv{
+    width: 100%;
+    height: 50%;
+    /* object-fit: cover; */
+    /* height: 50%; */
+    border-radius: 10px; 
+}
+
+.cardimg{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.cardbody > *{
+    text-align: center;
+        
+}
+
+.prodname{
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.cutprice{
+    text-decoration: line-through;
+    color: gray;
+}
