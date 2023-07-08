@@ -19,26 +19,3 @@ function ProdCard({data}) {
 }
 
 export default ProdCard
-
-{/* <Card sx={{ maxWidth: 270 }}>
-            <CardMedia
-            component="img"
-            alt="green iguana"
-            width="50px"
-            height="auto"
-            src= {data.img}
-            />
-            <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
-                    {data.name}
-                </Typography>
-                <Typography variant="body3" color="text.secondary">
-                    Lizards are a widespread group of squamate reptiles, with over 6,000
-                    species, ranging across all continents except Antarctica
-                </Typography>
-            </CardContent>
-            <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
-            </CardActions>
-        </Card> */}
